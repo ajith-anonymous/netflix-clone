@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header id="header">
+    <div class="header-cont container">
+      <div class="left-cont">
+        <img class="header-brand" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2015_N_logo.svg" alt="Netflix">
+        <ul class="main-nav">
+          <li class="nav-item active">Home</li>
+          <li class="nav-item">TV Shows</li>
+          <li class="nav-item">Movies</li>
+          <li class="nav-item">New & Popular</li>
+        </ul>
+      </div>
+      <div class="right-cont">
+        <input type="text" id="searchInput" placeholder="Search movies...">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="User" class="user-icon">
+      </div>
+    </div>
+  </header>
+
+  <div class="banner-section" id="banner-section">
+     <button class="banner-btn prev-btn">❮</button>
+     <button class="banner-btn next-btn">❯</button>
+  </div>
+  <div class="movies-cont container" id="movies-cont"></div>
+</body>
+</html>
