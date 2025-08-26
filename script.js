@@ -1,5 +1,5 @@
 // 🔑 API config values
-const apiKey = "64757c31918f955b0adce2eafb949a80";
+const apiKey = "API_KEY";
 const imgPath = "https://image.tmdb.org/t/p/w500";
 const bannerImgPath = "https://image.tmdb.org/t/p/original";
 
@@ -189,3 +189,4 @@ function setActiveNav(e) {
 
 //  Load everything on page load
 window.onload = init;
+
